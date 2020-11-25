@@ -1,0 +1,187 @@
+
+/* ==========================================================================
+Base
+========================================================================== */
+html{ overflow-x: hidden;}
+
+body {width: 100%; height:100%;background-color: white;}
+
+header{ background-color: #4b9ca3;}
+
+footer{width: 100%; background-color: #4b9ca3; 
+  }
+
+
+.capital h1 a { margin-top: 100px;
+  color: #4b9ca3; text-transform: uppercase; letter-spacing: 2px; font-weight: bold; font-size: 25px;
+  font-family: 'Varela Round', sans-serif;
+}
+h1 a:hover {
+ color: #425c59;text-decoration: none;font-size: 25px; font-family: 'Varela Round', sans-serif;
+}
+p {color:#638283; text-align: justify;  letter-spacing: 1px;}
+.text-center{margin-top: 60px;}
+/* ==========================================================================
+HEADER
+========================================================================== */
+
+ .boton  { 
+    font-size: 18px;
+ text-decoration: none;
+ text-transform: uppercase; letter-spacing: 2px; 
+ font-family: 'Varela Round', sans-serif;
+ color: #fff;  
+ }
+
+ .boton:hover {
+ color: #425c59;
+ }
+
+
+.Fcb {color: white; font-size: 30px;}
+.Fcb:hover { color: #425c59;}
+.Ig {color: white; font-size:30px;}
+.Ig:hover { color: #425c59;}
+.Hmb{color: white;font-size: 30px;}
+/* ==========================================================================
+SLIDER PRINCIPAL
+========================================================================== */
+
+.carousel-item .video-fluid {width: 100% !important;
+margin-right: 0% !important;
+margin-left: 0% !important;
+width: auto;
+height: auto;
+}
+
+/* ==========================================================================
+NOSOTROS
+========================================================================== */
+.letra {font-size: 20px;
+  color: #425c59; line-height: 25px; font-family: 'Varela Round', sans-serif;}
+.letra1 {font-size: 20px;
+  color: #425c59; text-align: center;  line-height: 25px; margin-top: 40px;font-family: 'Varela Round', sans-serif; font-weight: bold;}
+
+.arrow {margin-top: 0px; margin-bottom: 100px;}
+
+
+
+
+/* ==========================================================================
+SERVICIOS
+========================================================================== */
+
+.swag { background: url("/diseño/edificios.png" ) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; 
+-o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; 
+margin-top: 100px; margin-bottom: 100px;}
+.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #4b9ca3; 
+  display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center;}
+.down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background:#425c59; }
+
+/* ==========================================================================
+SLIDER DE CASAS
+===========================================*/
+
+#properties{ background-color:#fafafa ;  margin-right: 40px; margin-left: 40px; padding-bottom: 130px; margin-top: 160px; }
+h6 { font-size: 20px;
+  color: #425c59; line-height: 25px; font-family: 'Varela Round', sans-serif; font-weight: bold;}
+  
+.comment{ font-size: 15px;
+  color: #425c59; line-height: 25px; font-family: 'Varela Round', sans-serif; font-weight: bold;}
+
+.margenes{margin-top: 50px;}
+/* ==========================================================================
+CONTACTO
+========================================================================== */
+
+
+
+.mape iframe { margin-right: 0px; margin-bottom: 100px;}
+
+
+
+#ubi img { list-style: none;margin-right: 0px; margin-bottom: 20px;vertical-align: middle;}
+
+#mail img { list-style: none;margin-right: 0px;margin-bottom: 20px; margin-left: 0px;vertical-align: middle;}
+ 
+#tel img {list-style: none; margin-bottom: 0px; margin-right: 0px;vertical-align: middle;}
+
+#afip img {width: 60px; height: 60px;}
+
+div ul li p { margin-left: 10px; display: inline-block;  vertical-align: middle; }
+/* ==========================================================================
+FORMULARIO DE CONTACTO
+========================================================================== */
+.form-consulta { margin-top: 0px; display: block; box-sizing:border-box; border: 1px solid; border-color: #c6cccc;
+  margin-bottom: 50px;
+  max-width:325px; background-color: #fff; padding: 25px; 
+  font-family: 'Varela Round', sans-serif; font-size:15px; color:#425c59;letter-spacing: 1px; font-weight: lighter;}
+  
+.campo-form { width:100%; height:36px;  padding-left:6px; box-sizing: border-box; border:1px solid; border-color:#c6cccc; }
+label span {color: #c6cccc}
+textarea {min-height: 150px!important;}
+.btn-form {display: inline-block; border:0; margin-left: 75px;
+  font-family: 'Varela Round', sans-serif; font-weight: bold; border-radius: 10px;
+  background: #4b9ca3; height: 46px; line-height: 46px; padding: 0 20px; 
+   color:#fff; text-decoration: none; text-transform: 
+  uppercase; letter-spacing: 1px; box-shadow: 5px 5px 5px grey;}
+.btn-form:hover {background: #425c59}
+
+#tituloform{font-weight: bold; font-family: 'Varela Round', sans-serif;text-transform: uppercase;margin-left: 25px; }
+/* ==========================================================================
+BOTÓN DE WHATSAPP
+========================================================================== */
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+  margin-top:16px;
+}
+
+/* ==========================================================================
+FOOTER
+========================================================================== */
+
+
+#register p { font-size: 10px; color: #fff; }
+
+.datasty { padding:5px 0px; 
+    font-size: 14px; color: #fff;
+ text-decoration: none;
+ text-transform: uppercase; letter-spacing: 2px; 
+ font-family: 'Varela Round', sans-serif;
+
+   
+  }
+
+ .datasty:hover { text-decoration: none;
+ color: #425c59;
+ }
+ .datasty2 { padding:5px 0px; 
+    font-size: 14px; color: #fff;
+ text-decoration: none;
+ text-transform: uppercase; letter-spacing: 2px; 
+ font-family: 'Varela Round', sans-serif;
+ 
+   
+  }
+.logofooter {margin-bottom: 20px;}
+
